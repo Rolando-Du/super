@@ -34,7 +34,7 @@ const ProductItem = ({ product, deleteProduct, updateProduct }) => {
             ) : (
                 <div>
                     <h2 className="text-xl font-bold">{product.name}</h2>
-                    <p className="text-gray-600">Precio: ${product.price.toFixed(2)}</p>
+                    <p className="text-gray-600">Precio: $ {product.price.toFixed(2)}</p>
                     <div className="flex justify-between mt-2">
                         <button onClick={() => setIsEditing(true)} className="p-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600">
                             Editar

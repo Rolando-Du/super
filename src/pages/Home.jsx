@@ -37,7 +37,9 @@ const Home = () => {
                 <ProductForm addProduct={handleAddProduct} />
                 <ProductList products={products} deleteProduct={handleDeleteProduct} updateProduct={handleUpdateProduct} />
                 <div className="mt-4 p-4 bg-blue-100 rounded-lg text-center">
-                    <h2 className="text-2xl font-bold text-blue-700">Total: ${totalPrice.toFixed(2)}</h2>
+                    <h2 className="text-2xl font-bold text-emerald-950">
+                        TOTAL: <span className="dollar-sign">$</span> {totalPrice.toFixed(2)}
+                    </h2>
                 </div>
             </div>
         </div>

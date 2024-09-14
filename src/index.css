@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dollar-sign {
+    font-size: 1.5rem;
+    color: #008000;
+}
